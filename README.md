@@ -1,5 +1,5 @@
 Welcome to User project.
 
-Please click on the below link for live demo: https://github.com/chintana-p/profile-page1.git
+Please click on the below link for live demo:  https://chintana-p.github.io/profile-page/
 
 Thanks for visiting!
