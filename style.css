@@ -19,8 +19,7 @@ li {
   {
     .table
     {
-      float: left;
-      width: auto;
+      width: 100%;
     }
   }
   @media screen and(min-width: 1200px)
