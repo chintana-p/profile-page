@@ -6,3 +6,12 @@ li {
     font-family: 'Roboto', sans-serif;
 
 }
+
+  
+  @media only screen and (min-width: 815px) {
+    .table  {
+      width: 50%;
+      height: 100px;
+    }
+    
+  }
