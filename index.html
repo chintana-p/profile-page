@@ -10,6 +10,47 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lobster&family=Kanit:ital,wght@1,200&family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
     <title>simple profile page</title>
+    <style>
+      /* Add responsive styles here */
+      @media screen and (max-width: 600px) {
+        #header table {
+          display: block;
+          text-align: center;
+        }
+        #header td {
+          display: block;
+        }
+        #header td:nth-child(2) {
+          display: none;
+        }
+        #header td:nth-child(3) {
+          margin-top: 10px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        #about td:first-child,
+        #projects td:first-child,
+        #achievements td:first-child,
+        #contact td:first-child {
+          width: 100%;
+        }
+        #about td:last-child,
+        #projects td:last-child,
+        #achievements td:last-child,
+        #contact td:last-child {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        #projects td:first-child {
+          width: 45%;
+        }
+        #projects td:last-child {
+          width: 55%;
+        }
+      }
+    </style>
 </head>
 <body>
     <!-- header-starting -->
