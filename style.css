@@ -7,12 +7,6 @@ li {
 
 }
 
-  
-  @media only screen and (min-width: 815px) {
-    .table  {
-      width: 50%;
-      height: 100px;
-    }
     li {
       color: white;
       text-align: justify;
@@ -20,4 +14,19 @@ li {
       font-family: 'Roboto', sans-serif;
   
   }
+
+  @media screen and(min-width: 576px)
+  {
+    .table
+    {
+      float: left;
+      width: auto;
+    }
+  }
+  @media screen and(min-width: 1200px)
+  {
+    .table
+    {
+      width: 25%;
+    }
   }
