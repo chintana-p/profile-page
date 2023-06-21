@@ -13,5 +13,18 @@ li {
       width: 50%;
       height: 100px;
     }
-    
+    li {
+      color: white;
+      text-align: justify;
+      font-size: 28px;
+      font-family: 'Roboto', sans-serif;
+  
+  }
+  ul {
+    text-align: right;
+    height: 550px;
+    width: 400px;
+    margin-left: auto;
+    float: right;
+  }
   }
